@@ -1,0 +1,9 @@
+.playfield {
+  display: grid;
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  box-shadow: 10px 10px 5px #aaaaaa;
+}

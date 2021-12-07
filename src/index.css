@@ -1,3 +1,7 @@
 @import url(./vendor/normalize.css);
 
 @import url(./pages/App/App.css);
+
+@import url('./components/Header/Header.css');
+@import url('./components/Playfield/Playfield.css');
+@import url('./components/Tile/Tile.css');
