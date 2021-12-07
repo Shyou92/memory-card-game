@@ -6,4 +6,13 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
   box-shadow: 10px 10px 5px #aaaaaa;
+  position: relative;
+}
+
+.playfield__won-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 72px;
 }

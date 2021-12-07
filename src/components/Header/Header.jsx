@@ -1,10 +1,19 @@
-function Header() {
+import { connect } from 'react-redux';
+
+function Header({ round }) {
   return (
     <section className='header'>
-      <h2 className='header__text'>Welcome</h2>
-      <h4 className='header__round'>Round 0</h4>
+      <h2 className='header__text'>Welcome!</h2>
+      <h4 className='header__round'>Round {round}</h4>
     </section>
   );
 }
 
-export default Header;
+const mapStateToProps = (state) => {
+  const changeRound = state.changeRoundReducer.round;
+  return {
+    round: changeRound,
+  };
+};
+
+export default connect(mapStateToProps, null)(Header);

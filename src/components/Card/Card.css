@@ -1,4 +1,4 @@
-.tile {
+.card {
   perspective: 300px;
   border: 1px solid black;
   cursor: pointer;
@@ -6,15 +6,15 @@
 }
 
 /* .card.hover .flipper, */
-.tile.flip .flipper {
+.card.flip .flipper {
   transform: rotateY(180deg);
 }
 
-.tile.flip .flipper_prohibited {
+.card.flip .flipper_prohibited {
   transform: none;
 }
 
-.tile,
+.card,
 .frontSide,
 .cover {
   height: 100px;
