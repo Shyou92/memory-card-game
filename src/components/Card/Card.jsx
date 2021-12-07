@@ -12,7 +12,7 @@ function Tile({ store, card }) {
       }}
     >
       <div className='flipper'>
-        <div className='frontSide'>{card.id}</div>
+        <div className='frontSide'>Flip me!</div>
         <div className='cover' style={{ background: card.color }}></div>
       </div>
     </div>
